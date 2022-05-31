@@ -12,7 +12,7 @@ const char* password = "Sua-Senha";
 // Cria uma estrutura que contenha os dados que será recebido.
 typedef struct struct_message {
   int id;
-  float ldr;
+  int ldr;
   unsigned int readingId;
 } struct_message;
 
